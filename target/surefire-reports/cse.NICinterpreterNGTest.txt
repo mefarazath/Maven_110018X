@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: cse.NICinterpreterNGTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.173 sec <<< FAILURE!
+testInterpretIDSex(cse.NICinterpreterNGTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Maley] but found [Male]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at cse.NICinterpreterNGTest.testInterpretIDSex(NICinterpreterNGTest.java:86)
